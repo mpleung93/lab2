@@ -14,11 +14,14 @@
 body {
      border: 1px dotted gray;
      padding: 20px;
+     background-color:#FFF6FF;
 }
 
 .jumbotron {
      position: relative;
      background: none;
+         font-size: 300%;
+
 }
 
 .jumbotron:after {
@@ -33,9 +36,35 @@ body {
      z-index: -1;   
 }
 
-
-
-#project1 {
-    font-variant: small-caps;
+.thumbnail{
+    background-color: #00FAC0;
 
 }
+
+.title{
+    font-variant: small-caps;
+    font-size: 200%;
+}
+
+.image{
+    position:relative;
+    left:22%;
+    width:60%;
+         border: 1px solid #9F7DFF;
+
+}
+
+.innerDiv{
+     padding-bottom:20px;
+}
+
+.words{
+    font-family:"Verdana";
+    text-align: right;
+}
+
+.titles{
+        font-family:"Verdana";
+
+}
+
